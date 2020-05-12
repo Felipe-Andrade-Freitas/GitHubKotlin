@@ -1,16 +1,18 @@
 package com.example.github.ui.activites
 
 import android.content.Intent
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.github.R
 import com.example.github.adapters.RepositorioAdapter
+import com.example.github.helpers.IntentUtil
+import com.example.github.helpers.putExtraJson
 import com.example.github.models.AccessToken
 import com.example.github.models.Repositorio
 import com.example.github.models.Usuario
 import com.example.github.services.RetrofitInitializer
+import com.google.gson.GsonBuilder
 import kotlinx.android.synthetic.main.activity_main.*
 import retrofit2.Call
 import retrofit2.Response
@@ -27,9 +29,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/login/oauth/authorize?client_id=" + client_id + "&scope=repo&redirect_uri=" + redirect_uri));
-        startActivity(intent);
-
+        //var intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/login/oauth/authorize?client_id=" + client_id + "&scope=repo&redirect_uri=" + redirect_uri));
+        //startActivity(intent);
+        getRepositorioPorUsuario("Felipe-Andrade-Freitas")
         //getRepositorio()
     }
 
@@ -73,6 +75,14 @@ class MainActivity : AppCompatActivity() {
 
                     if(it.code() == 200) {
                         lista.adapter = RepositorioAdapter(this@MainActivity, it.body())
+                        
+                        lista.setOnItemClickListener { parent, view, position, id ->
+
+                            var repositorio = it.body()[position]
+                            var intent = Intent(this@MainActivity, RepositorioActivity::class.java)
+                            intent.putExtraJson("repositorio", repositorio)
+                            startActivity(intent)
+                        }
                     }
 
                 }

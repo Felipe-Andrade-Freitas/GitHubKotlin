@@ -18,8 +18,8 @@ class RepositorioAdapter(var context: Context, var list : List<Repositorio>) : B
 
         var name = view.findViewById<TextView>(R.id.name)
         name.text = list[position].name
-        var time = view.findViewById<TextView>(R.id.description)
-        time.text = list[position].description
+        var description = view.findViewById<TextView>(R.id.description)
+        description.text = list[position].description
         var image = view.findViewById<ImageView>(R.id.image)
         Glide.with(context).load(list[position].owner.avatar_url).into(image)
         return view;
