@@ -17,4 +17,7 @@ interface RepositorioService {
     @Headers("Authorization: {type_token} {access_token}")
     @GET("user")
     fun getUsuario(@Path("type_token") type_token : String, @Path("access_token") access_token : String) : Call<Usuario>
+
+    @GET("users/{user}")
+    fun getUsuarioPorNome(@Path("user") user : String) : Call<Usuario>
 }

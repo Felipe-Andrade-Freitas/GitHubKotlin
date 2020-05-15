@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
         //getRepositorio()
     }
 
-    @Override
     override fun onResume() {
         super.onResume()
 

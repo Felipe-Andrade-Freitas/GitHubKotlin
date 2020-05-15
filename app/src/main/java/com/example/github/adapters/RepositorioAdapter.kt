@@ -7,11 +7,17 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.example.github.R
 import com.example.github.models.Repositorio
+import com.example.github.models.Usuario
+import com.example.github.services.RetrofitInitializer
+import retrofit2.Call
+import retrofit2.Response
 
 class RepositorioAdapter(var context: Context, var list : List<Repositorio>) : BaseAdapter() {
+
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
 
         var view = LayoutInflater.from(context).inflate(R.layout.item_repositorio, null)
@@ -36,5 +42,4 @@ class RepositorioAdapter(var context: Context, var list : List<Repositorio>) : B
     override fun getCount(): Int {
         return list.size;
     }
-
 }

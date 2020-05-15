@@ -7,5 +7,9 @@ data class Repositorio(
     var full_name : String = "",
     var private : Boolean = false,
     var owner : Usuario,
-    var description : String = ""
+    var description : String = "",
+    var language : String = "",
+    var stargazers_count : Int = 0,
+    var forks : Int = 0,
+    var watchers : Int = 0
 )

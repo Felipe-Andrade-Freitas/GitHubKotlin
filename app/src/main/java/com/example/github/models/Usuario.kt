@@ -7,5 +7,9 @@ data class Usuario(
     var avatar_url : String = "",
     var url : String = "",
     var type : String = "",
-    var site_admin : Boolean
+    var site_admin : Boolean,
+    var name : String,
+    var followers : String,
+    var following : String,
+    var public_repos : String
 )
