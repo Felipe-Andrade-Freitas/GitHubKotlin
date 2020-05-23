@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
     fun loginClick() {
 
-        var s = RetrofitInitializer().serviceAccount()
+        var s = RetrofitInitializer().()
 
         var account = Account()
         account.email = email.text.toString()
