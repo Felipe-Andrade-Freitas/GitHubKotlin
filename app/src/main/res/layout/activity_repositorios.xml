@@ -7,32 +7,20 @@
     tools:context=".ui.activites.RepositoriosActivity"
     android:background="@color/colorPrimaryDark">
 
-    <RelativeLayout
-        android:id="@+id/busca_pai"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp">
-
-        <EditText
-            android:id="@+id/pesquisar_campo"
-            android:layout_width="250dp"
-            android:layout_height="45dp"
-            android:layout_marginRight="20dp"
-            android:textColor="@color/colorWhite"></EditText>
-
-        <Button
-            android:id="@+id/pesquisar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/pesquisar_campo"
-            android:text="@string/pesquisar"></Button>
-
-    </RelativeLayout>
+        android:textSize="20dp"
+        android:text="Repositorios"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorWhite"></TextView>
 
     <ListView
         android:id="@+id/lista"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/busca_pai"></ListView>
+        android:layout_below="@id/titulo"></ListView>
 
 </RelativeLayout>

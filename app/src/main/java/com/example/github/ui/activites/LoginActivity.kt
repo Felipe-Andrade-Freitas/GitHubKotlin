@@ -18,7 +18,10 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         login.setOnClickListener {
-                loginClick()
+                //loginClick()
+
+            var intent = Intent(this@LoginActivity, AutoresActivity::class.java)
+            startActivity(intent)
         }
 
     }
@@ -36,7 +39,7 @@ class LoginActivity : AppCompatActivity() {
                 response?.let {
 
                     if (it.code() == 200) {
-                        var intent = Intent(this@LoginActivity, RepositoriosActivity::class.java)
+                        var intent = Intent(this@LoginActivity, AutoresActivity::class.java)
                         startActivity(intent)
 
                     } else {

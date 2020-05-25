@@ -1,5 +1,6 @@
 package com.example.github.services
 
+import android.view.inspector.PropertyMapper
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -32,16 +33,16 @@ class RetrofitInitializer {
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
-        fun serviceRepositorio(): RepositorioService {
-            return retrofitApiGit.create(RepositorioService::class.java)
-        }
+    fun serviceRepositorio(): RepositorioService {
+        return retrofitApiGit.create(RepositorioService::class.java)
+    }
 
 
-        private val retrofitGit = Retrofit.Builder()
-            .client(okHttpClient)
-            .baseUrl("https://github.com/")
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
+    private val retrofitGit = Retrofit.Builder()
+        .client(okHttpClient)
+        .baseUrl("https://github.com/")
+        .addConverterFactory(GsonConverterFactory.create())
+        .build()
 
     private val retrofitlogin = Retrofit.Builder()
         .client(okHttpClient)
@@ -52,10 +53,4 @@ class RetrofitInitializer {
     fun serviceAccount(): AccountService {
         return retrofitlogin.create(AccountService::class.java)
     }
-
-
-    fun serviceAutentication(): AutenticationService {
-        return retrofitGit.create(AutenticationService::class.java)
-    }
-
-    }
+}
