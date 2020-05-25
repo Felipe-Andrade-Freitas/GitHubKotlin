@@ -30,7 +30,11 @@ class LoginActivity : AppCompatActivity() {
 
         var s = RetrofitInitializer().serviceAccount()
 
-        var call = s.auth(email.text.toString(), password.text.toString())
+        var account = Account()
+        account.email = email.text.toString()
+        account.password = password.text.toString()
+
+        var call = s.auth(account)
 
         call.enqueue(object : retrofit2.Callback<Account> {
 
