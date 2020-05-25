@@ -18,10 +18,10 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         login.setOnClickListener {
-                //loginClick()
+                loginClick()
 
-            var intent = Intent(this@LoginActivity, AutoresActivity::class.java)
-            startActivity(intent)
+            //var intent = Intent(this@LoginActivity, AutoresActivity::class.java)
+           // startActivity(intent)
         }
 
     }
