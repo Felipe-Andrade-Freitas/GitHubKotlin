@@ -12,8 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.activites.RepositorioActivity"></activity>
-        <activity android:name=".ui.activites.MainActivity">
+        <activity android:name=".ui.activites.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,6 +29,9 @@
                     android:scheme="github" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.activites.AutorActivity" />
+        <activity android:name=".ui.activites.RepositorioActivity" />
+        <activity android:name=".ui.activites.RepositoriosActivity" />
     </application>
 
 </manifest>

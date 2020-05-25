@@ -45,7 +45,7 @@ class RetrofitInitializer {
 
     private val retrofitlogin = Retrofit.Builder()
         .client(okHttpClient)
-        .baseUrl("https://mockup.fluo.site/v1/")
+        .baseUrl("https://api.fluo.work/v1/")
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 

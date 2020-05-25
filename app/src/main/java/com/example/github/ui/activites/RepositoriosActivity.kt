@@ -6,18 +6,16 @@ import android.os.Bundle
 import android.widget.Toast
 import com.example.github.R
 import com.example.github.adapters.RepositorioAdapter
-import com.example.github.helpers.IntentUtil
 import com.example.github.helpers.putExtraJson
 import com.example.github.models.AccessToken
 import com.example.github.models.Repositorio
 import com.example.github.models.Usuario
 import com.example.github.services.RetrofitInitializer
-import com.google.gson.GsonBuilder
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_repositorios.*
 import retrofit2.Call
 import retrofit2.Response
 
-class MainActivity : AppCompatActivity() {
+class RepositoriosActivity : AppCompatActivity() {
 
     private var client_id = "35e01f6c816aaf91dd1c"
     private var client_secret = "7f6e84313a29378e985234395710eff0cc3e455b"
@@ -27,8 +25,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_repositorios)
 
+        //https://api.github.com/search/users?q=felipe+andrade
         //var intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/login/oauth/authorize?client_id=" + client_id + "&scope=repo&redirect_uri=" + redirect_uri));
         //startActivity(intent);
         getRepositorioPorUsuario("Felipe-Andrade-Freitas")
@@ -54,13 +53,13 @@ class MainActivity : AppCompatActivity() {
                 response?.let {
 
                     if(it.code() == 200) {
-                        lista.adapter = RepositorioAdapter(this@MainActivity, it.body())
+                        lista.adapter = RepositorioAdapter(this@RepositoriosActivity, it.body())
                     }
 
                 }
             }
             override fun onFailure(call: Call<List<Repositorio>>?, t: Throwable?) {
-                Toast.makeText(this@MainActivity, "Ops", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@RepositoriosActivity, "Ops", Toast.LENGTH_LONG).show()
             }
         })
     }
@@ -73,12 +72,12 @@ class MainActivity : AppCompatActivity() {
                 response?.let {
 
                     if(it.code() == 200) {
-                        lista.adapter = RepositorioAdapter(this@MainActivity, it.body())
+                        lista.adapter = RepositorioAdapter(this@RepositoriosActivity, it.body())
                         
                         lista.setOnItemClickListener { parent, view, position, id ->
 
                             var repositorio = it.body()[position]
-                            var intent = Intent(this@MainActivity, RepositorioActivity::class.java)
+                            var intent = Intent(this@RepositoriosActivity, RepositorioActivity::class.java)
                             intent.putExtraJson("repositorio", repositorio)
                             startActivity(intent)
                         }
@@ -87,7 +86,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             override fun onFailure(call: Call<List<Repositorio>>?, t: Throwable?) {
-                Toast.makeText(this@MainActivity, "Ops", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@RepositoriosActivity, "Ops", Toast.LENGTH_LONG).show()
             }
         })
     }
@@ -106,7 +105,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             override fun onFailure(call: Call<Usuario>?, t: Throwable?) {
-                Toast.makeText(this@MainActivity, "Ops", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@RepositoriosActivity, "Ops", Toast.LENGTH_LONG).show()
             }
         })
     }
@@ -120,7 +119,7 @@ class MainActivity : AppCompatActivity() {
                 getUsuario(response?.body()?.getTokenType().toString(), accessToken)
             }
             override fun onFailure(call: Call<AccessToken>?, t: Throwable?) {
-                Toast.makeText(this@MainActivity, "Ops", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@RepositoriosActivity, "Ops", Toast.LENGTH_LONG).show()
             }
         })
     }

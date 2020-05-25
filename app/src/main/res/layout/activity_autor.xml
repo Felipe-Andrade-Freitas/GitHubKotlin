@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activites.RepositoriosActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:id="@+id/autor_pai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"></ImageView>
+
+        <TextView
+            android:id="@+id/autor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image"
+            android:textSize="28dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorWhite"></TextView>
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image"
+            android:layout_below="@id/autor"
+            android:textSize="18dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorWhite"></TextView>
+
+        <TextView
+            android:id="@+id/followers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/image"
+            android:textColor="@color/colorWhite"></TextView>
+
+        <TextView
+            android:id="@+id/following"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:layout_toRightOf="@id/followers"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorWhite"></TextView>
+
+    </RelativeLayout>
+
+
+    <ImageView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:src="@android:drawable/divider_horizontal_textfield"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:layout_below="@id/autor_pai"/>
+
+    <RelativeLayout
+        android:id="@+id/informacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/autor_pai"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp">
+
+        <RelativeLayout
+            android:id="@+id/repositorio"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/repositorio_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/repositorio"
+                android:textSize="18dp"
+                android:textColor="@color/colorWhiteBlack"></TextView>
+
+            <TextView
+                android:id="@+id/repositorio_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@+id/repositorio_text"
+                android:gravity="right"
+                android:textSize="18dp"
+                android:textColor="@color/colorWhiteBlack"></TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/seguidores"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/repositorio">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/seguidores_text"
+                android:text="@string/seguidores"
+                android:textSize="18dp"
+                android:textColor="@color/colorWhiteBlack"></TextView>
+
+            <TextView
+                android:id="@+id/seguidores_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@+id/seguidores_text"
+                android:gravity="right"
+                android:textSize="18dp"
+                android:textColor="@color/colorWhiteBlack"></TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/seguindo"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seguidores">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/seguindo_text"
+                android:text="@string/seguindo"
+                android:textSize="18dp"
+                android:textColor="@color/colorWhiteBlack"></TextView>
+
+            <TextView
+                android:id="@+id/seguindo_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@+id/seguindo_text"
+                android:gravity="right"
+                android:textSize="18dp"
+                android:textColor="@color/colorWhiteBlack"></TextView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

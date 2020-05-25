@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">GitHub</string>
+    <string name="repositorio">Repositório</string>
+    <string name="organizacao">Organização</string>
+    <string name="seguidores">Seguidor</string>
+    <string name="seguindo">Seguindo</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="auth">Autenticação</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
 </resources>

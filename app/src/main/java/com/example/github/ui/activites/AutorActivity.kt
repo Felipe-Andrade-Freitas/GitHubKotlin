@@ -8,55 +8,49 @@ import com.bumptech.glide.Glide
 import com.example.github.R
 import com.example.github.helpers.getJsonExtra
 import com.example.github.helpers.putExtraJson
-import com.example.github.models.Repositorio
 import com.example.github.models.Usuario
 import com.example.github.services.RetrofitInitializer
-import kotlinx.android.synthetic.main.activity_repositorio.*
+import kotlinx.android.synthetic.main.activity_autor.*
 import kotlinx.android.synthetic.main.item_repositorio.image
 import kotlinx.android.synthetic.main.item_repositorio.name
 import retrofit2.Call
 import retrofit2.Response
 
-class RepositorioActivity : AppCompatActivity() {
+class AutorActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_repositorio)
+        setContentView(R.layout.activity_autor)
 
-        var repositorio = intent.getJsonExtra("repositorio", Repositorio::class.java)
+        var loginCode = intent.getStringExtra("login")
 
-        name.text = repositorio?.name
-        description.text = repositorio?.description
-        star.text = repositorio?.stargazers_count.toString() + " stars"
-        fork.text = repositorio?.forks.toString() + " forks"
-
-        Glide.with(this).load(repositorio?.owner?.avatar_url).into(image)
-        getUsuario(repositorio?.owner?.login)
-
-        autor_pai.setOnClickListener {
-            var intent = Intent(this, AutorActivity::class.java)
-            intent.putExtra("login", repositorio?.owner?.login)
-            startActivity(intent)
-        }
-    }
-
-
-    fun getUsuario(user : String?) {
         var s = RetrofitInitializer().serviceRepositorio()
-        var call = s.getUsuarioPorNome(user.toString())
+        var call = s.getUsuarioPorNome(loginCode)
         call.enqueue(object : retrofit2.Callback<Usuario> {
             override fun onResponse(call: Call<Usuario>?, response: Response<Usuario>?) {
                 response?.let {
 
                     if(it.code() == 200)
                     {
-                        autor.text = it.body()?.name
+                        var autorModel = it?.body()
+
+                        autor.text = autorModel?.name
+                        login.text = autorModel?.login
+                        followers.text = autorModel?.following.toString() + " seguidores"
+                        following.text = autorModel?.followers.toString() + " seguindo"
+
+                        repositorio_value.text = autorModel?.public_repos
+                        seguindo_value.text = autorModel?.following.toString()
+                        seguidores_value.text = autorModel?.followers.toString()
+
+                        Glide.with(this@AutorActivity).load(autorModel?.avatar_url).into(image)
                     }
                 }
             }
             override fun onFailure(call: Call<Usuario>?, t: Throwable?) {
-                Toast.makeText(this@RepositorioActivity, "Ops", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@AutorActivity, "Ops", Toast.LENGTH_LONG).show()
             }
         })
+
     }
 }

@@ -5,40 +5,29 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.github.R
-import com.example.github.adapters.RepositorioAdapter
-import com.example.github.helpers.IntentUtil
-import com.example.github.helpers.putExtraJson
-import com.example.github.models.AccessToken
-import com.example.github.models.Repositorio
-import com.example.github.models.Usuario
+import com.example.github.models.Account
 import com.example.github.services.RetrofitInitializer
-import com.google.gson.GsonBuilder
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_login.*
 import retrofit2.Call
 import retrofit2.Response
 
-
-class MainActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_login)
 
         login.setOnClickListener {
-            loginClick();
+                loginClick()
         }
 
     }
 
     fun loginClick() {
 
-        var s = RetrofitInitializer().()
+        var s = RetrofitInitializer().serviceAccount()
 
-        var account = Account()
-        account.email = email.text.toString()
-        account.password = password.text.toString()
-
-        var call = s.auth(account)
+        var call = s.auth(email.text.toString(), password.text.toString())
 
         call.enqueue(object : retrofit2.Callback<Account> {
 
@@ -47,9 +36,11 @@ class MainActivity : AppCompatActivity() {
                 response?.let {
 
                     if (it.code() == 200) {
-                        Toast.makeText(this@MainActivity, "Ok", Toast.LENGTH_LONG).show()
+                        var intent = Intent(this@LoginActivity, RepositoriosActivity::class.java)
+                        startActivity(intent)
+
                     } else {
-                        Toast.makeText(this@MainActivity, "Error!", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this@LoginActivity, "Error!", Toast.LENGTH_LONG).show()
                     }
 
                 }
@@ -58,7 +49,7 @@ class MainActivity : AppCompatActivity() {
 
             override fun onFailure(call: Call<Account>?, t: Throwable?) {
 
-                Toast.makeText(this@MainActivity, "Ops", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@LoginActivity, "Ops", Toast.LENGTH_LONG).show()
 
             }
 
