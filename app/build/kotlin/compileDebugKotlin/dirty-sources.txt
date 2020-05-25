@@ -1,0 +1,15 @@
+C:\Users\Wemerson\Documents\GitHub\GitHubKotlin\app\src\main\java\com\example\github\adapters\AutorAdapter.kt
+C:\Users\Wemerson\Documents\GitHub\GitHubKotlin\app\src\main\java\com\example\github\adapters\RepositorioAdapter.kt
+C:\Users\Wemerson\Documents\GitHub\GitHubKotlin\app\src\main\java\com\example\github\models\AccessToken.kt
+C:\Users\Wemerson\Documents\GitHub\GitHubKotlin\app\src\main\java\com\example\github\models\Account.kt
+C:\Users\Wemerson\Documents\GitHub\GitHubKotlin\app\src\main\java\com\example\github\models\AutorSearch.kt
+C:\Users\Wemerson\Documents\GitHub\GitHubKotlin\app\src\main\java\com\example\github\models\Repositorio.kt
+C:\Users\Wemerson\Documents\GitHub\GitHubKotlin\app\src\main\java\com\example\github\models\Usuario.kt
+C:\Users\Wemerson\Documents\GitHub\GitHubKotlin\app\src\main\java\com\example\github\services\AccountService.kt
+C:\Users\Wemerson\Documents\GitHub\GitHubKotlin\app\src\main\java\com\example\github\services\RepositorioService.kt
+C:\Users\Wemerson\Documents\GitHub\GitHubKotlin\app\src\main\java\com\example\github\services\RetrofitInitializer.kt
+C:\Users\Wemerson\Documents\GitHub\GitHubKotlin\app\src\main\java\com\example\github\ui\activites\AutorActivity.kt
+C:\Users\Wemerson\Documents\GitHub\GitHubKotlin\app\src\main\java\com\example\github\ui\activites\AutoresActivity.kt
+C:\Users\Wemerson\Documents\GitHub\GitHubKotlin\app\src\main\java\com\example\github\ui\activites\LoginActivity.kt
+C:\Users\Wemerson\Documents\GitHub\GitHubKotlin\app\src\main\java\com\example\github\ui\activites\RepositorioActivity.kt
+C:\Users\Wemerson\Documents\GitHub\GitHubKotlin\app\src\main\java\com\example\github\ui\activites\RepositoriosActivity.kt
