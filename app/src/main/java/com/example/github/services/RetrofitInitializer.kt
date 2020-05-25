@@ -44,13 +44,13 @@ class RetrofitInitializer {
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
-    private val retrofit = Retrofit.Builder()
+    private val retrofitlogin = Retrofit.Builder()
         .client(okHttpClient)
         .baseUrl("https://api.fluo.work/v1/")
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
     fun serviceAccount(): AccountService {
-        return retrofit.create(AccountService::class.java)
+        return retrofitlogin.create(AccountService::class.java)
     }
 }
