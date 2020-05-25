@@ -34,6 +34,8 @@ class LoginActivity : AppCompatActivity() {
         account.email = email.text.toString()
         account.password = password.text.toString()
 
+        var call = s.auth(account)
+
         call.enqueue(object : retrofit2.Callback<Account> {
 
             override fun onResponse(call: Call<Account>?, response: Response<Account>?) {
