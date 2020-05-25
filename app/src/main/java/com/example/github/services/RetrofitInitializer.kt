@@ -43,8 +43,19 @@ class RetrofitInitializer {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
+    private val retrofitlogin = Retrofit.Builder()
+        .client(okHttpClient)
+        .baseUrl("https://mockup.fluo.site/v1/")
+        .addConverterFactory(GsonConverterFactory.create())
+        .build()
+
+    fun serviceAccount(): AccountService {
+        return retrofitlogin.create(AccountService::class.java)
+    }
+
 
     fun serviceAutentication(): AutenticationService {
         return retrofitGit.create(AutenticationService::class.java)
     }
+
     }

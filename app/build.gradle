@@ -33,6 +33,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
     // retrofit
+
     // biblioteca do retrofit versão 2.1 - https://square.github.io/retrofit/
     implementation 'com.squareup.retrofit2:retrofit:2.1.0'
 
