@@ -15,14 +15,14 @@
 
         <EditText
             android:id="@+id/pesquisar_campo"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="45dp"
             android:layout_marginRight="20dp"
             android:textColor="@color/colorWhite"></EditText>
 
         <Button
             android:id="@+id/pesquisar"
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/pesquisar_campo"
             android:text="@string/pesquisar"></Button>

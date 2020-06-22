@@ -34,8 +34,8 @@ class AutoresActivity : AppCompatActivity() {
         var s = RetrofitInitializer().serviceRepositorio()
 
         var nome = pesquisar_campo.text.toString()
+        var call = s.getUsuarioPorNomeQuery(nome)
 
-            var call = s.getUsuarioPorNomeQuery(nome)
             call.enqueue(object : retrofit2.Callback<AutorSearch> {
                 override fun onResponse(call: Call<AutorSearch>?, response: Response<AutorSearch>?) {
                     response?.let {

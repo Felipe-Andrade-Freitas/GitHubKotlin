@@ -1,166 +1,166 @@
 [
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_autores.xml.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\layout\\activity_autores.xml"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_content_copy_black_24dp.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_content_copy_black_24dp.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_content_copy_black_24dp.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_content_copy_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_autores.xml.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\layout\\activity_autores.xml"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_star_border_black_24dp.xml.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_star_border_black_24dp.xml"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_content_copy_black_24dp.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_content_copy_black_24dp.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_content_copy_black_24dp.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_content_copy_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_star_border_black_24dp.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_star_border_black_24dp.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_star_border_black_24dp.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_star_border_black_24dp.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_content_copy_black_24dp.xml.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_content_copy_black_24dp.xml"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_content_copy_black_24dp.xml.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_content_copy_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_repositorio.xml.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\layout\\activity_repositorio.xml"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_star_border_black_24dp.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_star_border_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_repositorios.xml.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\layout\\activity_repositorios.xml"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_autor.xml.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\layout\\activity_autor.xml"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_star_border_black_24dp.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_star_border_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_star_border_black_24dp.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_star_border_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_repositorio.xml.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\layout\\item_repositorio.xml"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_content_copy_black_24dp.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_content_copy_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_autor.xml.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\layout\\item_autor.xml"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_repositorios.xml.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\layout\\activity_repositorios.xml"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_star_border_black_24dp.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_star_border_black_24dp.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_star_border_black_24dp.xml.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_star_border_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_content_copy_black_24dp.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_content_copy_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_autor.xml.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\layout\\item_autor.xml"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_repositorio.xml.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\layout\\item_repositorio.xml"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_content_copy_black_24dp.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_content_copy_black_24dp.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_repositorio.xml.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\layout\\activity_repositorio.xml"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_content_copy_black_24dp.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_content_copy_black_24dp.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_content_copy_black_24dp.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_content_copy_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_content_copy_black_24dp.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_content_copy_black_24dp.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_star_border_black_24dp.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_star_border_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_autor.xml.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\layout\\activity_autor.xml"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_star_border_black_24dp.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_star_border_black_24dp.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_content_copy_black_24dp.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_content_copy_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_star_border_black_24dp.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_star_border_black_24dp.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_content_copy_black_24dp.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_content_copy_black_24dp.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_star_border_black_24dp.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_star_border_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_star_border_black_24dp.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_star_border_black_24dp.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Wemerson\\Documents\\GitHub\\GitHubKotlin\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_star_border_black_24dp.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_star_border_black_24dp.png"
     }
 ]

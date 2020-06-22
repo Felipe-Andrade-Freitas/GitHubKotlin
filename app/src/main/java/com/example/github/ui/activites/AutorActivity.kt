@@ -26,6 +26,7 @@ class AutorActivity : AppCompatActivity() {
 
         var s = RetrofitInitializer().serviceRepositorio()
         var call = s.getUsuarioPorNome(loginCode)
+
         call.enqueue(object : retrofit2.Callback<Usuario> {
             override fun onResponse(call: Call<Usuario>?, response: Response<Usuario>?) {
                 response?.let {

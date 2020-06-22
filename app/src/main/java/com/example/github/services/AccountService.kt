@@ -8,7 +8,7 @@ import retrofit2.http.*
 interface AccountService {
 
 
-    @POST("account")
+    @POST("account/auth")
     fun auth(@Body account: Account) : Call<Account>
 
 }
