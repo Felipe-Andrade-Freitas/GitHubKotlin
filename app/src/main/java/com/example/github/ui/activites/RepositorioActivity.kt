@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.afollestad.materialdialogs.MaterialDialog
+import com.afollestad.materialdialogs.Theme
 import com.bumptech.glide.Glide
 import com.example.github.R
 import com.example.github.helpers.getJsonExtra
@@ -55,7 +57,12 @@ class RepositorioActivity : AppCompatActivity() {
                 }
             }
             override fun onFailure(call: Call<Usuario>?, t: Throwable?) {
-                Toast.makeText(this@RepositorioActivity, "Ops", Toast.LENGTH_LONG).show()
+                MaterialDialog.Builder(this@RepositorioActivity)
+                    .theme(Theme.DARK)
+                    .title("Ops!")
+                    .content("Ocorreu um erro ao processar a solicitação. Por favor, tente novamente.")
+                    .positiveText("OK")
+                    .show()
             }
         })
     }

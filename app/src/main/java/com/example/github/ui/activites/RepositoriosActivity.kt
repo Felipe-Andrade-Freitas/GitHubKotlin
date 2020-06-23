@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.afollestad.materialdialogs.MaterialDialog
+import com.afollestad.materialdialogs.Theme
 import com.example.github.R
 import com.example.github.adapters.RepositorioAdapter
 import com.example.github.helpers.putExtraJson
@@ -47,7 +49,12 @@ class RepositoriosActivity : AppCompatActivity() {
                 }
             }
             override fun onFailure(call: Call<List<Repositorio>>?, t: Throwable?) {
-                Toast.makeText(this@RepositoriosActivity, "Ops", Toast.LENGTH_LONG).show()
+                MaterialDialog.Builder(this@RepositoriosActivity)
+                    .theme(Theme.DARK)
+                    .title("Ops!")
+                    .content("Ocorreu um erro ao processar a solicitação. Por favor, tente novamente.")
+                    .positiveText("OK")
+                    .show()
             }
         })
     }

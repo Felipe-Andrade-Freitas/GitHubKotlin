@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.afollestad.materialdialogs.MaterialDialog
+import com.afollestad.materialdialogs.Theme
 import com.example.github.R
 import com.example.github.adapters.AutorAdapter
 import com.example.github.adapters.RepositorioAdapter
@@ -55,7 +57,12 @@ class AutoresActivity : AppCompatActivity() {
                     }
                 }
                 override fun onFailure(call: Call<AutorSearch>?, t: Throwable?) {
-                    Toast.makeText(this@AutoresActivity, "Ops", Toast.LENGTH_LONG).show()
+                    MaterialDialog.Builder(this@AutoresActivity)
+                        .theme(Theme.DARK)
+                        .title("Ops!")
+                        .content("Ocorreu um erro ao processar a solicitação. Por favor, tente novamente.")
+                        .positiveText("OK")
+                        .show()
                 }
             })
 
