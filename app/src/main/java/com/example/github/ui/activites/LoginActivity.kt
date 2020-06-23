@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.afollestad.materialdialogs.MaterialDialog
+import com.afollestad.materialdialogs.Theme
 import com.example.github.R
 import com.example.github.models.Account
 import com.example.github.services.RetrofitInitializer
@@ -47,7 +49,13 @@ class LoginActivity : AppCompatActivity() {
                         startActivity(intent)
 
                     } else {
-                        Toast.makeText(this@LoginActivity, "Error!", Toast.LENGTH_LONG).show()
+                        MaterialDialog.Builder(this@LoginActivity)
+                            .theme(Theme.DARK)
+                            .title("Ops!")
+                            .content("Erro ao realizar o login. Por favor, verifique suas credenciais e tente novamente.")
+                            .positiveText("OK")
+                            .show()
+
                     }
 
                 }
