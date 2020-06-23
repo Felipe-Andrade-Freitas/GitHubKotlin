@@ -15,8 +15,6 @@ import com.example.github.models.Repositorio
 import com.example.github.models.Usuario
 import com.example.github.services.RetrofitInitializer
 import kotlinx.android.synthetic.main.activity_autores.*
-import kotlinx.android.synthetic.main.activity_repositorios.*
-import kotlinx.android.synthetic.main.activity_repositorios.lista
 import retrofit2.Call
 import retrofit2.Response
 

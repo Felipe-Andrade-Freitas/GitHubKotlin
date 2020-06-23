@@ -108,6 +108,10 @@
         "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\layout\\item_autor.xml"
     },
     {
+        "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_logo.png.flat",
+        "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\mipmap-mdpi\\logo.png"
+    },
+    {
         "merged": "D:\\Projetos\\GitHubKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "D:\\Projetos\\GitHubKotlin\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },

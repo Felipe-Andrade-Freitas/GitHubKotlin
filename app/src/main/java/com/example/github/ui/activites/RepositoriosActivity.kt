@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.Theme
 import com.example.github.R
@@ -36,16 +37,11 @@ class RepositoriosActivity : AppCompatActivity() {
 
                     if(it.code() == 200) {
                         lista.adapter = RepositorioAdapter(this@RepositoriosActivity, it.body())
-
-                        lista.setOnItemClickListener { parent, view, position, id ->
-
-                            var repositorio = it.body()[position]
-                            var intent = Intent(this@RepositoriosActivity, RepositorioActivity::class.java)
-                            intent.putExtraJson("repositorio", repositorio)
-                            startActivity(intent)
-                        }
+                        lista.layoutManager = LinearLayoutManager(
+                            this@RepositoriosActivity,
+                            LinearLayoutManager.HORIZONTAL, false
+                        )
                     }
-
                 }
             }
             override fun onFailure(call: Call<List<Repositorio>>?, t: Throwable?) {
